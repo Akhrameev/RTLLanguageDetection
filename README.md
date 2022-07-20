@@ -9,11 +9,9 @@
 
 That's what written in **Discussion** section in [documentation](https://developer.apple.com/documentation/corefoundation/1542136-cfstringtokenizercopybeststringl):
 
-```
-The result is not guaranteed to be accurate. Typically, the function requires 200-400 characters to reliably guess the language of a string.
-CFStringTokenizer recognizes the following languages:
-ar (Arabic), bg (Bulgarian), cs (Czech), da (Danish), de (German), el (Greek), en (English), es (Spanish), fi (Finnish), fr (French), he (Hebrew), hr (Croatian), hu (Hungarian), is (Icelandic), it (Italian), ja (Japanese), ko (Korean), nb (Norwegian Bokmål), nl (Dutch), pl (Polish), pt (Portuguese), ro (Romanian), ru (Russian), sk (Slovak), sv (Swedish), th (Thai), tr (Turkish), uk (Ukrainian), zh-Hans (Simplified Chinese), zh-Hant (Traditional Chinese).
-```
+> The result is not guaranteed to be accurate. Typically, the function requires 200-400 characters to reliably guess the language of a string.
+> CFStringTokenizer recognizes the following languages:
+> ar (Arabic), bg (Bulgarian), cs (Czech), da (Danish), de (German), el (Greek), en (English), es (Spanish), fi (Finnish), fr (French), he (Hebrew), hr (Croatian), hu (Hungarian), is (Icelandic), it (Italian), ja (Japanese), ko (Korean), nb (Norwegian Bokmål), nl (Dutch), pl (Polish), pt (Portuguese), ro (Romanian), ru (Russian), sk (Slovak), sv (Swedish), th (Thai), tr (Turkish), uk (Ukrainian), zh-Hans (Simplified Chinese), zh-Hant (Traditional Chinese).
 
 ## NSLinguisticTagger
 
