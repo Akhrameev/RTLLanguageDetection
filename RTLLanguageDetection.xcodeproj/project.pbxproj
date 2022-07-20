@@ -12,19 +12,12 @@
 		1A9380BB28882F800054E62A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A9380BA28882F800054E62A /* Assets.xcassets */; };
 		1A9380BE28882F800054E62A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A9380BD28882F800054E62A /* Preview Assets.xcassets */; };
 		1A9380C828882F800054E62A /* RTLLanguageDetectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9380C728882F800054E62A /* RTLLanguageDetectionTests.swift */; };
-		1A9380D228882F800054E62A /* RTLLanguageDetectionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9380D128882F800054E62A /* RTLLanguageDetectionUITests.swift */; };
-		1A9380D428882F800054E62A /* RTLLanguageDetectionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9380D328882F800054E62A /* RTLLanguageDetectionUITestsLaunchTests.swift */; };
+		1A9380E128882FB90054E62A /* String+RTL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9380E028882FB90054E62A /* String+RTL.swift */; };
+		1A9380E228882FB90054E62A /* String+RTL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9380E028882FB90054E62A /* String+RTL.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		1A9380C428882F800054E62A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1A9380AB28882F7D0054E62A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1A9380B228882F7D0054E62A;
-			remoteInfo = RTLLanguageDetection;
-		};
-		1A9380CE28882F800054E62A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1A9380AB28882F7D0054E62A /* Project object */;
 			proxyType = 1;
@@ -41,9 +34,7 @@
 		1A9380BD28882F800054E62A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1A9380C328882F800054E62A /* RTLLanguageDetectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RTLLanguageDetectionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A9380C728882F800054E62A /* RTLLanguageDetectionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTLLanguageDetectionTests.swift; sourceTree = "<group>"; };
-		1A9380CD28882F800054E62A /* RTLLanguageDetectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RTLLanguageDetectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1A9380D128882F800054E62A /* RTLLanguageDetectionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTLLanguageDetectionUITests.swift; sourceTree = "<group>"; };
-		1A9380D328882F800054E62A /* RTLLanguageDetectionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTLLanguageDetectionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1A9380E028882FB90054E62A /* String+RTL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+RTL.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,13 +52,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1A9380CA28882F800054E62A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -76,7 +60,6 @@
 			children = (
 				1A9380B528882F7D0054E62A /* RTLLanguageDetection */,
 				1A9380C628882F800054E62A /* RTLLanguageDetectionTests */,
-				1A9380D028882F800054E62A /* RTLLanguageDetectionUITests */,
 				1A9380B428882F7D0054E62A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,7 +69,6 @@
 			children = (
 				1A9380B328882F7D0054E62A /* RTLLanguageDetection.app */,
 				1A9380C328882F800054E62A /* RTLLanguageDetectionTests.xctest */,
-				1A9380CD28882F800054E62A /* RTLLanguageDetectionUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -98,6 +80,7 @@
 				1A9380B828882F7D0054E62A /* ContentView.swift */,
 				1A9380BA28882F800054E62A /* Assets.xcassets */,
 				1A9380BC28882F800054E62A /* Preview Content */,
+				1A9380E028882FB90054E62A /* String+RTL.swift */,
 			);
 			path = RTLLanguageDetection;
 			sourceTree = "<group>";
@@ -116,15 +99,6 @@
 				1A9380C728882F800054E62A /* RTLLanguageDetectionTests.swift */,
 			);
 			path = RTLLanguageDetectionTests;
-			sourceTree = "<group>";
-		};
-		1A9380D028882F800054E62A /* RTLLanguageDetectionUITests */ = {
-			isa = PBXGroup;
-			children = (
-				1A9380D128882F800054E62A /* RTLLanguageDetectionUITests.swift */,
-				1A9380D328882F800054E62A /* RTLLanguageDetectionUITestsLaunchTests.swift */,
-			);
-			path = RTLLanguageDetectionUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,24 +139,6 @@
 			productReference = 1A9380C328882F800054E62A /* RTLLanguageDetectionTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		1A9380CC28882F800054E62A /* RTLLanguageDetectionUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1A9380DD28882F800054E62A /* Build configuration list for PBXNativeTarget "RTLLanguageDetectionUITests" */;
-			buildPhases = (
-				1A9380C928882F800054E62A /* Sources */,
-				1A9380CA28882F800054E62A /* Frameworks */,
-				1A9380CB28882F800054E62A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1A9380CF28882F800054E62A /* PBXTargetDependency */,
-			);
-			name = RTLLanguageDetectionUITests;
-			productName = RTLLanguageDetectionUITests;
-			productReference = 1A9380CD28882F800054E62A /* RTLLanguageDetectionUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,10 +153,6 @@
 						CreatedOnToolsVersion = 13.4.1;
 					};
 					1A9380C228882F800054E62A = {
-						CreatedOnToolsVersion = 13.4.1;
-						TestTargetID = 1A9380B228882F7D0054E62A;
-					};
-					1A9380CC28882F800054E62A = {
 						CreatedOnToolsVersion = 13.4.1;
 						TestTargetID = 1A9380B228882F7D0054E62A;
 					};
@@ -221,7 +173,6 @@
 			targets = (
 				1A9380B228882F7D0054E62A /* RTLLanguageDetection */,
 				1A9380C228882F800054E62A /* RTLLanguageDetectionTests */,
-				1A9380CC28882F800054E62A /* RTLLanguageDetectionUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -243,13 +194,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1A9380CB28882F800054E62A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -257,6 +201,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A9380E128882FB90054E62A /* String+RTL.swift in Sources */,
 				1A9380B928882F7D0054E62A /* ContentView.swift in Sources */,
 				1A9380B728882F7D0054E62A /* RTLLanguageDetectionApp.swift in Sources */,
 			);
@@ -267,15 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A9380C828882F800054E62A /* RTLLanguageDetectionTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1A9380C928882F800054E62A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1A9380D228882F800054E62A /* RTLLanguageDetectionUITests.swift in Sources */,
-				1A9380D428882F800054E62A /* RTLLanguageDetectionUITestsLaunchTests.swift in Sources */,
+				1A9380E228882FB90054E62A /* String+RTL.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,11 +223,6 @@
 			isa = PBXTargetDependency;
 			target = 1A9380B228882F7D0054E62A /* RTLLanguageDetection */;
 			targetProxy = 1A9380C428882F800054E62A /* PBXContainerItemProxy */;
-		};
-		1A9380CF28882F800054E62A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1A9380B228882F7D0054E62A /* RTLLanguageDetection */;
-			targetProxy = 1A9380CE28882F800054E62A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -503,40 +435,6 @@
 			};
 			name = Release;
 		};
-		1A9380DE28882F800054E62A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.akhrameev.rtllanguagedetection.RTLLanguageDetectionUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = RTLLanguageDetection;
-			};
-			name = Debug;
-		};
-		1A9380DF28882F800054E62A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.akhrameev.rtllanguagedetection.RTLLanguageDetectionUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = RTLLanguageDetection;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -563,15 +461,6 @@
 			buildConfigurations = (
 				1A9380DB28882F800054E62A /* Debug */,
 				1A9380DC28882F800054E62A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1A9380DD28882F800054E62A /* Build configuration list for PBXNativeTarget "RTLLanguageDetectionUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1A9380DE28882F800054E62A /* Debug */,
-				1A9380DF28882F800054E62A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
