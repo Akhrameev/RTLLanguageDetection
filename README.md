@@ -25,9 +25,9 @@ Works much longer.
 `NLLanguageRecognizer` was released in iOS 12.0`. It is a recommended way to determine language as Apple says, but it is slower even than `NSLinguisticTagger`.
 And, *surprise-surprise*, 🙃 I've found no case when it determines **Persian** correctly. It returns **Arabic** or **Urdu**. Both solutions mentioned above worked better for **Persian**.
 
-# P.S.
+# Tip 1
 **Maldivian** language is not determined by all three ways.
 
-# P.P.S.
+# Tip 2
 Interface allows to return `nil` language when it was not determined.
 All three ways can return undocumented `und` language - that also means that language was not detected. Two ways to say the same. Oh, Apple.
