@@ -1,4 +1,4 @@
-# RTLLanguageDetection
+# Right-To-Left Language Detection
 `CFStringTokenizerCopyBestStringLanguage` showed the best performance for language determination
 
 ## CFStringTokenizer
